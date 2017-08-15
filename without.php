@@ -7,9 +7,11 @@
 
 <body>
 <?php
-session_start();
-
-
+    //Se inicializa en 1
+     $contador=0;
+     echo "<h1> El valor de contador es:".$contador++."</h1>";
 ?>
+    <br>
+    <a href="index.php">Regresar</a>
 </body>
 </html>
